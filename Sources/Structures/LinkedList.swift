@@ -14,7 +14,6 @@ public class LinkedList<T: Equatable>: Sequence, Collection, ExpressibleByArrayL
     
     public typealias ArrayLiteralElement = T
     
-
     // MARK: Types
     
     public typealias Index = Int
