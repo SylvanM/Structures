@@ -90,6 +90,20 @@ public class LinkedList<T: Equatable>: Sequence, Collection, ExpressibleByArrayL
     // MARK: Computed Properties
     
     /**
+     * The first item in the list
+     */
+    public var first: T? {
+        head?.data
+    }
+    
+    /**
+     * The last item in the list
+     */
+    public var last: T? {
+        caboose?.data
+    }
+    
+    /**
      * `true` if this linked list contains no data
      */
     public var isEmpty: Bool {
